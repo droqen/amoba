@@ -81,6 +81,7 @@ pub fn main() {
             .with_default(local_to_world())
             .with(rotation(), Quat::from_rotation_z(-INIT_POS))
             .with(name(), "Hero".to_string())
+            .with(components::model_role(), role)
             .spawn();
         let anim_model = Entity::new()
             .with_merge(make_transformable())

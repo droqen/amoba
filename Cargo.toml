@@ -28,6 +28,16 @@ name = "server_ui"
 path = "src/ui/server.rs"
 required-features = ["server"]
 
+[[bin]]
+name = "client_zombie"
+path = "src/zombie/client.rs"
+required-features = ["client"]
+
+[[bin]]
+name = "server_zombie"
+path = "src/zombie/server.rs"
+required-features = ["server"]
+
 
 [[bin]]
 name = "server_player"

@@ -10,6 +10,11 @@ role = { type = "U32", name = "Team and hero", description = "0=>MarsHeroA, 1=>J
     "Networked",
 ] }
 
+model_role = { type = "U32", name = "Model role", description = "see 'role' component", attributes = [
+    "Debuggable",
+    "Networked",
+] }
+
 target_pos = { type = "Vec2", name = "target_pos", description = "target_pos", attributes = [
     "Debuggable",
     "Networked",
